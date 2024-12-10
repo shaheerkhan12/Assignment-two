@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Lilita One';
+    src: url('../public/font/LilitaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../public/font/Poppins-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'PoppinsLight';
+    src: url('../public/font/Poppins-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  // Set as default font
+  body {
+    font-family: 'Lilita One', sans-serif;
+  }
+  
+  .background{
+    background-image: url('../public/fundo.svg');
+
+  }
+  .cover-image{
+    background-image: url('../public/img1.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .background-mb{
+    background-image: url('../public/navbar-mobile-bg.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .footer-bg{
+    background-image: url('../public/footer.svg');
+
+  }
+  .footersmall-bg{
+    background-image: url('../public/Rectangle.svg');
+    background-size: contain;
+
+  }
